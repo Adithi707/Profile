@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">My Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <h1>Hi, I'm Adithi</h1>
+            <p>A beginner web developer learning to build cool websites</p>
+            <div class="home-buttons">
+                <a href="#projects" class="btn btn-primary">View My Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="" alt="Adithi" class="about-img">
+                <div class="about-text">
+                    <p>Hi! I'm Adithi, a beginner web developer who loves learning and creating websites. I'm passionate about writing clean code and building projects that look great.</p>
+                    <p>When I'm not coding, I enjoy exploring new web technologies and practicing my skills on fun projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">Git</div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&auto=format&fit=crop" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Game</h3>
+                        <p>A simple game built with HTML and CSS and Java</p>
+                        <a href="../game/index.html" class="project-link">View Project →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=300&auto=format&fit=crop" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Poster</h3>
+                        <p>Poster made using HTML and Css</p>
+                        <a href="../poster/event.html" class="project-link">View Project →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=300&auto=format&fit=crop" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Student Grade Calculator</h3>
+                        <p>A web application to calculate and display student grades</p>
+                        <a href="../STUDENT GRADE CALC/index.html" class="project-link">View Project →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <h2>Contact Me</h2>
+            <form id="contactForm" class="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Adithi's Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
